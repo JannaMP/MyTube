@@ -11,19 +11,24 @@ body{
     padding: 30px;
 }
 
+header{
+    height: 200px;
+    background-color: red;
+}
+
 .video_principal{
     display: flex;
 }
 
 .lista_videos{
     display: flex;
-    margin: 15px;
+    padding-left: 40px;
 }
 
 .video_recomendados{
     display: flex;
     flex-direction: column;
-    height: 500px;
-    width: 100px;
+    height: 315;
+    width: 250px;
    
 }
